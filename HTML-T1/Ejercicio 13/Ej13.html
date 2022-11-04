@@ -9,31 +9,60 @@
 </head>
 
 <body>   
+    <h1>TELEBIRRIA</h1>
+    <h3>Para hacer su pedido, rellene el formulario</h3>
     <form action="#">
         <fieldset>
-            <legend>Personalia:</legend>
-            <label for="fname">Nombre:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br>
-            <label for="vehicle1"> Mayor de edad: </label>
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><br>
-            <label for="vehicle1"> Mayor de edad: </label><br>
-            <input type="radio" id="vehicle1" name="vehicle1" value="Bike" checked><label>Sí</label><br>
-            <input type="radio" id="vehicle1" name="vehicle1" value="Bike"><label>No</label><br>
-            <label for="observaciones">Obervaciones</label><br>
-            <textarea id="observaciones" colums="50" rows="3"> </textarea><br>
-            <label for="dia">Dias de la semana:</label>     
-                <select id="cars" size="7">
-                    <option value="lunes">Lunes</option>
-                    <option value="martes">Martes</option>
-                    <option value="miercoles">Miercoles</option>
-                    <option value="jueves">Jueves</option>
-                    <option value="viernes">Viernes</option>
-                    <option value="sabado">Sabado</option>
-                    <option value="domingo">Domingo</option>
+            <legend><strong>Datos personales y de envio:</strong></legend>
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Apellidos:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="lname">Domicilio:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="lname">Localidad:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="lname">Codigo postal:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="lname">Telefono:</label>
+            <input type="text" id="lname" name="lname"><br>
+        </fieldset>
+    </form>
+    <form action="#">
+        <fieldset>
+            <legend><strong>Elija la opcion de entrega:</strong></legend>
+            <input type="radio" id="vehicle1" name="vehicle1" value="Bike" checked><label>Recoger en el local</label><br>
+            <input type="radio" id="vehicle1" name="vehicle1" value="Bike"><label>Enviar a domicilio</label><br>           
+        </fieldset>
+    </form>
+<form action="#">
+    <fieldset>
+        <legend><strong>¿Quiere que le enviemos nuestras ofertas?</strong></legend>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label>Enviar al domicilio</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label>Enviar por email</label><br>
+            
+    </fieldset>
+</form>
+<form action="#">
+    <fieldset>
+        <legend><strong>Elija su menu:</strong></legend>
+            <label>Tamaño del bocadillo:</label><br>   
+            <select size="4">
+                <option value="pequeño">pequeño </option>
+                <option value="mediano">mediano</option>
+                <option value="grande">grande</option>
+                <option value="enorme">enorme</option>                  
+            </select><br>       
+            <label for="dia">Contenido del bocadillo:</label> <br>   
+                <select size="4">
+                    <option value="anchoas">anchoas </option>
+                    <option value="calamares">calamares</option>
+                    <option value="mejillones">mejillones</option>
+                    <option value="jamon">jamon</option>                  
                 </select><br>
-                <input type="submit" value="Enviar">
+                <label>Puedes añadir alguna sugerencia:</label><br>
+                <textarea id="observaciones" colums="50" rows="3">Por ejemplo calentar el pan, etc. </textarea><br>
+                <input type="submit" value="Enviar datos">
         </fieldset>
     </form>
 </body>
