@@ -1,0 +1,17 @@
+p {
+    border-style: dotted;
+    border-color: black;
+    color: blue;
+    background-color: gray;
+    font-size: 1em;
+}
+
+p.amarillo{
+background-color: yellow;
+
+}
+
+p#sexto{
+  font-size: 2em;
+
+}
