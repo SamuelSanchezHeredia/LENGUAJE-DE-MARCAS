@@ -1,0 +1,23 @@
+#Capa1{
+    width: 50%;
+    border-style: dashed;
+    border-color: black;
+    font-size: 1em;
+
+}
+
+#Capa2{
+    width: 33%;
+    border-style: dashed;
+    border-color: red;
+    font-size: 1.2em;
+
+}
+
+#Capa3{
+    width: 25%;
+    border-style: dashed;
+    border-color: blue;
+    font-size: 0.8em;
+
+}
