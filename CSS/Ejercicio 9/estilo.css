@@ -1,0 +1,47 @@
+header {
+    background-color: beige;
+    height: 100px;
+    border: 1px;
+    border-style: groove;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#colizq {
+    background-color: burlywood;
+    width: 70%;
+    float: left;
+    border: 1px;
+    border-style: groove;
+    padding: 15px;
+}
+
+#colder {
+    background-color: gainsboro;
+    width: 24%;
+    float: right;
+    border: 1px;
+    border-style: groove;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: bisque;
+    clear: both;
+    border: 1px;
+    border-style: groove;
+    padding: 5px;
+}
+
+#cabezera {
+    border: 1px;
+    border-style:hidden;
+    width: 90%;
+    float: left;
+}
+
+#foto {
+    float: right;
+
+}
