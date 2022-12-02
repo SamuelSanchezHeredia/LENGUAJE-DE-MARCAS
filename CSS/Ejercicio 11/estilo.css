@@ -3,6 +3,5 @@ ul {
 }
 
 ol {
-    list-style-position: inside;
     list-style-type: lower-roman;
 }
