@@ -1,0 +1,8 @@
+ul {
+    list-style: square inside url("rombo.png");
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: lower-roman;
+}
