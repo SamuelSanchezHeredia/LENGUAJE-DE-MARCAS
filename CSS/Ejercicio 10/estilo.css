@@ -1,0 +1,35 @@
+p::first-letter{
+    text-transform: uppercase;
+}
+
+#primero {
+    width: 120px;
+    line-height:30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    text-align: left;
+}
+
+#segundo {
+    width: 900px;
+    line-height: 29px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-style:oblique;
+    text-align: right;
+
+}
+#tercero {
+    width: 100%;
+    line-height: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-style:normal;
+    text-align: center;
+
+}
+
+p{
+text-indent: 10%;
+}
