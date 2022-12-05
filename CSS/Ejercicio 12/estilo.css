@@ -21,7 +21,7 @@ a {
     width: 20%;
     padding: 10px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     float: left;
 
 
@@ -31,5 +31,16 @@ a {
     background-color: lightskyblue;
     float: right;
     width: 75%;
+    padding: 10px;
+}
+
+#fotoderech{
+    float: right;
+    padding: 10px;
+
+}
+
+#fotoizq{
+    float: left;
     padding: 10px;
 }
