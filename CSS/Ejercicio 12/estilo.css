@@ -1,0 +1,35 @@
+header {
+    border-color: black;
+    border: 2px;
+    border-style: ridge;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+
+a {
+    border: 2px;
+    border-color: white;
+    border-style: ridge;
+    padding: 5px;
+    width: 100%;
+
+}
+
+#izq {
+    background-color: plum;
+    width: 20%;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+
+
+}
+
+#derech {
+    background-color: lightskyblue;
+    float: right;
+    width: 75%;
+    padding: 10px;
+}
