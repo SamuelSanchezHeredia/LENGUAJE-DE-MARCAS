@@ -1,0 +1,83 @@
+#cont {
+    width: 100%;
+
+}
+
+header {
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+#menu {
+    background-color: brown;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 10px;
+    float: left;
+    width: 15%;
+    margin-right: 10px;
+
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    padding: 10px;
+    border: 1px solid;
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+
+#texto {
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 79%;
+    float: right;
+
+}
+
+#foto {
+    float: left;
+    border: 1px solid;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    margin-right: 10px;
+    height: 20%;
+
+}
+
+footer {
+    background-color: gainsboro;
+    padding: 10px;
+    clear: both;
+
+}
+
+a:link {
+    color: #FF0000;
+  }
+  
+  a:visited {
+    color: #00FF00;
+  }
+  
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  a:active {
+    color: #0000FF;
+  }
