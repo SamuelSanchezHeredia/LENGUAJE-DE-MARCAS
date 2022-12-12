@@ -1,0 +1,41 @@
+html {
+    background-color: beige;
+}
+
+#titulo {
+    color: brown;
+}
+
+#cabecera {
+    float: left;
+    color: gray;
+
+}
+
+#usuario {
+    float: right;
+
+}
+
+#datos {
+    float: left;
+    clear: both;
+    width: 49%;
+
+}
+
+#menu {
+    float: right;
+    width: 49%;
+
+}
+
+#pie {
+    float: left;
+    clear: both;
+
+}
+button{
+    color: red;
+    border-color: red;
+}
