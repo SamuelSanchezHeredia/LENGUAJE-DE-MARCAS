@@ -1,0 +1,59 @@
+#contenedora{
+    width: 70%;  
+    height: 400px; 
+    background-color: blanchedalmond;
+}
+
+
+#foto{
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding: 2em;
+
+}
+
+#menu{
+    float: right;
+    width: 55%;
+    padding: 2em;
+}
+
+#cerrar{
+    float: right;
+    padding: 3px;
+
+}
+
+#nombre{
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+#precio{
+    color: gray;
+    float: right;
+    font-size: 1.5em;
+}
+
+#colores{
+    float: left;
+    clear: both;
+    width: 250px;
+
+}
+
+li{
+    display: inline-block;
+    border: 2px solid black ;
+    border-radius: 1em ;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(69, 211, 236);
+    margin-left: 10px;
+}
+
+
+
+
