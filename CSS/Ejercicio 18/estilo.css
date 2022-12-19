@@ -1,0 +1,73 @@
+html {
+    background-color: gainsboro;
+}
+
+
+.izq {
+    float: left;
+    padding: 2em;
+    margin-left: 8em;
+    margin-top: 3em;
+}
+
+
+#contenedora {
+    width: 30%;
+    height: 220px;
+    background-color: aliceblue;
+}
+
+
+#foto {
+    float: left;
+    width: 31%;
+    height: 150px;
+    padding: 2em;
+}
+
+
+#menu {
+    float: right;
+    width: 35%;
+    padding: 2em;
+}
+
+
+#cerrar {
+    float: right;
+    padding: 1px;
+
+}
+
+
+#nombre {
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+
+#precio {
+    color: gray;
+    float: right;
+    font-size: 1em;
+}
+
+
+#colores {
+    float: left;
+    clear: both;
+    width: 150px;
+
+}
+
+
+li {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 1em;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(69, 211, 236);
+    margin-left: 10px;
+}
