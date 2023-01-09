@@ -1,0 +1,28 @@
+#menu {
+    background-color: brown;
+    text-align: right;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    border: 1px solid;
+    background-color: white;
+    margin-right: 40px;
+}
+
+#foto{
+    width: 5%;
+    height: 10%;
+    float: left;
+}
