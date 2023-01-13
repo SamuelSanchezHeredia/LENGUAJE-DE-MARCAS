@@ -3,6 +3,7 @@
     text-align: right;
     padding: 20px;
     padding-bottom: 25px;
+    overflow: hidden;
 }
 ul {
     text-align: right;
