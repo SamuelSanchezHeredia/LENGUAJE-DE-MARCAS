@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 4%;
+  padding: 1em;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header{
+  grid-area: header;
+  background-color: burlywood;
+}
+
+.navbar{
+  grid-area: navbar;
+  background-color: rosybrown;
+}
+
+.main{
+  grid-area: main;
+  background-color: beige;
+}
+
+.sidebar{
+  grid-area: sidebar;
+  background-color: aliceblue;
+}
+
+.sidebar1{
+    grid-area: sidebar1;
+    background-color: aliceblue;
+}
+
+.main2{
+    grid-area: main2;
+    background-color: aliceblue;
+  }
+
+.footer{
+  grid-area: footer;
+  background-color: wheat;
+}
+
+@media (min-width: 768px) {
+    .grid-container{
+        display: grid;
+        gap: 10px;
+        grid-template: 
+        "header" auto
+        "navbar" auto
+        "sidebar" auto
+        "main" auto
+        "sidebar1" auto
+        "main2" auto
+        "footer" auto
+        ;
+       }
+}
+
+@media (min-width: 1024px) {
+    .grid-container{
+        display: grid;
+        gap: 10px;
+        grid-template: 
+        "header header header" 50px
+        "navbar main main" auto
+        "navbar sidebar sidebar" 50px
+        "navbar sidebar1 sidebar1" 50px
+        "main2 main2 main2" 50px
+        "footer footer footer" 50px  
+        ;
+       }
+}
+
+@media (min-width: 1200px) {
+    .grid-container{
+        display: grid;
+        gap: 10px;
+        grid-template: 
+        "header header header header" 50px
+        "main main navbar main2" auto
+        "sidebar sidebar1 navbar main2" auto
+        "footer footer footer footer" 50px 
+        ;
+    }
+}
+
